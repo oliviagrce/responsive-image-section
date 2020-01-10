@@ -13,6 +13,8 @@ html {
   font-family: sans-serif;
   background-color: #e2e2e2;
   line-height: 1.5;
+  padding: 0 0;
+  margin: 0 0;
 }
 
 *, *::before, *::after {
