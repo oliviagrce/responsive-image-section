@@ -1,0 +1,39 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #e2e2e2;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  color: #000;
+}
+
+h2 {
+  color: #000;
+}
+
+p {
+  color: #000;
+}
+
+.btn {
+  color: #e2e2e2;
+  background-color: #555;
+  padding: 0.5em 0.75em;
+  border-radius: 4px;
+}
